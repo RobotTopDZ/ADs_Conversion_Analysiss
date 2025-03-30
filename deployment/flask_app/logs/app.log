@@ -1,0 +1,314 @@
+import logging
+
+# Configure logging
+logging.basicConfig(
+    filename="logs/app.log",  # Log file path
+    level=logging.INFO,  # Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+    format="%(asctime)s - %(levelname)s - %(message)s",  # Log format
+    datefmt="%Y-%m-%d %H:%M:%S"
+)
+
+# Test logging
+logging.info("✅ Flask app started!")
+logging.warning("⚠️ This is a warning message!")
+logging.error("❌ An error occurred!")
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 11:57:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 11:57:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:API Error: catboost/libs/data/model_dataset_compatibility.cpp:72: Feature ConversionRate is present in model but not in pool.
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 11:57:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+ERROR:root:API Error: catboost/libs/data/model_dataset_compatibility.cpp:72: Feature ConversionRate is present in model but not in pool.
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 11:58:00] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\model_loader.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\model_loader.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:00:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:00:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:00:15] "GET / HTTP/1.1" 200 -
+ERROR:root:API Error: catboost/libs/data/model_dataset_compatibility.cpp:72: Feature ConversionRate is present in model but not in pool.
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:00:23] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:00:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:00:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:00:40] "GET / HTTP/1.1" 200 -
+ERROR:root:API Error: catboost/libs/data/model_dataset_compatibility.cpp:72: Feature ConversionRate is present in model but not in pool.
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:00:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:09:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:09:13] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\file_storage.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:15:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:15:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:15:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:15:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:15:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:15:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:15:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:15:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:15:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:15:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:16:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:19:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:19:10] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:19:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:24:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:24:56] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:29:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:29:47] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:32:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:32:08] "GET / HTTP/1.1" 200 -
+INFO:root:Uploaded file columns: ['CustomerID', 'Age', 'Gender', 'Income', 'CampaignChannel', 'CampaignType', 'AdSpend', 'ClickThroughRate', 'ConversionRate', 'WebsiteVisits', 'PagesPerVisit', 'TimeOnSite', 'SocialShares', 'EmailOpens', 'EmailClicks', 'PreviousPurchases', 'LoyaltyPoints', 'AdvertisingPlatform', 'AdvertisingTool', 'Conversion']
+INFO:root:Final feature columns: ['Age', 'Gender_Female', 'Gender_Male', 'Income', 'CampaignChannel_Social', 'CampaignChannel_Email', 'CampaignChannel_TV', 'CampaignType_Discount', 'CampaignType_NewProduct', 'AdSpend', 'ClickThroughRate', 'ConversionRate', 'WebsiteVisits', 'PagesPerVisit', 'TimeOnSite', 'SocialShares', 'EmailOpens', 'EmailClicks', 'PreviousPurchases', 'LoyaltyPoints', 'AdvertisingPlatform_Facebook', 'AdvertisingPlatform_Google', 'AdvertisingPlatform_Instagram', 'AdvertisingPlatform_Twitter', 'AdvertisingTool_BannerAds', 'AdvertisingTool_SearchAds', 'AdvertisingTool_VideoAds']
+INFO:root:Prediction results: Prediction
+0    8000
+Name: count, dtype: int64
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:32:19] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:37:14] "GET / HTTP/1.1" 200 -
+INFO:root:Uploaded file columns: ['CustomerID', 'Age', 'Gender', 'Income', 'CampaignChannel', 'CampaignType', 'AdSpend', 'ClickThroughRate', 'ConversionRate', 'WebsiteVisits', 'PagesPerVisit', 'TimeOnSite', 'SocialShares', 'EmailOpens', 'EmailClicks', 'PreviousPurchases', 'LoyaltyPoints', 'AdvertisingPlatform', 'AdvertisingTool', 'Conversion']
+INFO:root:Transformed columns after encoding: ['CustomerID', 'Age', 'Income', 'AdSpend', 'ClickThroughRate', 'ConversionRate', 'WebsiteVisits', 'PagesPerVisit', 'TimeOnSite', 'SocialShares', 'EmailOpens', 'EmailClicks', 'PreviousPurchases', 'LoyaltyPoints', 'Conversion', 'Gender_Female', 'Gender_Male', 'CampaignChannel_Email', 'CampaignChannel_PPC', 'CampaignChannel_Referral', 'CampaignChannel_SEO', 'CampaignChannel_Social Media', 'CampaignType_Awareness', 'CampaignType_Consideration', 'CampaignType_Conversion', 'CampaignType_Retention', 'AdvertisingPlatform_IsConfid', 'AdvertisingTool_ToolConfid']
+INFO:root:Final model input columns: ['Age', 'Gender_Female', 'Gender_Male', 'Income', 'CampaignChannel_Social', 'CampaignChannel_Email', 'CampaignChannel_TV', 'CampaignType_Discount', 'CampaignType_NewProduct', 'AdSpend', 'ClickThroughRate', 'ConversionRate', 'WebsiteVisits', 'PagesPerVisit', 'TimeOnSite', 'SocialShares', 'EmailOpens', 'EmailClicks', 'PreviousPurchases', 'LoyaltyPoints', 'AdvertisingPlatform_Facebook', 'AdvertisingPlatform_Google', 'AdvertisingPlatform_Instagram', 'AdvertisingPlatform_Twitter', 'AdvertisingTool_BannerAds', 'AdvertisingTool_SearchAds', 'AdvertisingTool_VideoAds']
+INFO:root:Prediction results: 0
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:37:22] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:root:Final model input columns: ['Age', 'Income', 'AdSpend', 'ClickThroughRate', 'ConversionRate', 'WebsiteVisits', 'PagesPerVisit', 'TimeOnSite', 'SocialShares', 'EmailOpens', 'EmailClicks', 'PreviousPurchases', 'LoyaltyPoints', 'AdvertisingPlatform_IsConfid', 'AdvertisingTool_ToolConfid', 'CampaignChannel_Email', 'CampaignChannel_PPC', 'CampaignChannel_Referral', 'CampaignChannel_SEO', 'CampaignChannel_Social Media', 'CampaignType_Awareness', 'CampaignType_Consideration', 'CampaignType_Conversion', 'CampaignType_Retention', 'Gender_Female', 'Gender_Male']
+INFO:root:Prediction results: 0
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:42:54] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:47:04] "GET / HTTP/1.1" 200 -
+INFO:root:Final input data:     Age   Income  ...  AdvertisingPlatform_Instagram  AdvertisingPlatform_Twitter
+0  28.0  15260.0  ...                              0                            0
+
+[1 rows x 14 columns]
+ERROR:root:Error: catboost/libs/data/model_dataset_compatibility.cpp:72: Feature CampaignChannel_Referral is present in model but not in pool.
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:48:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:root:Final input data:     Age   Income  ...  AdvertisingPlatform_Instagram  AdvertisingPlatform_Twitter
+0  28.0  15260.0  ...                              0                            0
+
+[1 rows x 14 columns]
+ERROR:root:Error: catboost/libs/data/model_dataset_compatibility.cpp:72: Feature CampaignChannel_Referral is present in model but not in pool.
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:48:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:root:Final input data:     Age   Income  ...  AdvertisingPlatform_Instagram  AdvertisingPlatform_Twitter
+0  28.0  15260.0  ...                              0                            0
+
+[1 rows x 14 columns]
+ERROR:root:Error: catboost/libs/data/model_dataset_compatibility.cpp:72: Feature CampaignChannel_Referral is present in model but not in pool.
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:48:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:root:Final input data:     Age   Income  ...  AdvertisingPlatform_Instagram  AdvertisingPlatform_Twitter
+0  28.0  15260.0  ...                              0                            0
+
+[1 rows x 14 columns]
+ERROR:root:Error: catboost/libs/data/model_dataset_compatibility.cpp:72: Feature CampaignChannel_Referral is present in model but not in pool.
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:48:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:root:Final input data:     Age   Income  ...  AdvertisingPlatform_Instagram  AdvertisingPlatform_Twitter
+0  28.0  15260.0  ...                              0                            0
+
+[1 rows x 14 columns]
+ERROR:root:Error: catboost/libs/data/model_dataset_compatibility.cpp:72: Feature CampaignChannel_Referral is present in model but not in pool.
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:48:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:root:Final input data:     Age   Income  ...  AdvertisingPlatform_Instagram  AdvertisingPlatform_Twitter
+0  28.0  15260.0  ...                              0                            0
+
+[1 rows x 14 columns]
+ERROR:root:Error: catboost/libs/data/model_dataset_compatibility.cpp:72: Feature CampaignChannel_Referral is present in model but not in pool.
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 12:49:00] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 15:20:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 15:27:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 15:27:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 15:29:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\IPython\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\IPython\\core\\display_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\IPython\\core\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\IPython\\lib\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\IPython\\core\\interactiveshell.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\deployment\\flask_app\\model_loader.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\dominate\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\dominate\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\dominate\\document.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\dominate\\dom1core.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\numpy\\typing\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\numpy\\_typing\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\pandas\\core\\frame.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\numpy\\_utils\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\xgboost\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\xgboost\\sklearn.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\xgboost\\compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\xgboost\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\xgboost\\_typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\lightgbm\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\lightgbm\\sklearn.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\lightgbm\\compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\scipy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\scipy\\sparse\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\scipy\\sparse\\_base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\scipy\\sparse\\_csr.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\scipy\\sparse\\_csc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\scipy\\sparse\\_lil.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\scipy\\sparse\\_dok.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\scipy\\sparse\\_coo.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\scipy\\sparse\\_dia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\sklearn\\metrics\\_classification.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
+INFO:werkzeug: * Detected change in 'C:\\Users\\oussama\\Downloads\\Marketing_Conversion_Analysis\\venv\\Lib\\site-packages\\sklearn\\metrics\\_ranking.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-624-569
