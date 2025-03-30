@@ -16,9 +16,8 @@
 
 ## Tools Used
 1. **Jupyter Notebook** - Interactive development and testing.
-2. **Roboflow** - Data annotation and augmentation.
-3. **GitHub Actions** - CI/CD for model automation.
-4. **Matplotlib & Seaborn** - Data visualization.
+2. **GitHub Actions** - CI/CD for model automation.
+3. **Matplotlib & Seaborn** - Data visualization.
 
 ## Datasets & Sources
 1. **Our Project Dataset** - 📈 Predict Conversion in Digital Marketing Dataset
