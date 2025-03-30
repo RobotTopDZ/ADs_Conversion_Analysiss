@@ -59,7 +59,7 @@ The dataset consists of customer-related attributes collected from marketing cam
 We tested multiple models to determine the best performing one!  
 
 ### 📌 Model Benchmarking Table  
-![Model Benchmarking](model_benchmarking.png)
+![Model Benchmarking](model_benchmarking.PNG)
 
 ### 📌 Confusion Matrix  
 ![Confusion Matrix](matrix_of_confusion.png)
