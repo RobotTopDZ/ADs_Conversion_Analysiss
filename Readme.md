@@ -1,7 +1,7 @@
-# 📈 Predicting Ad Campaign Conversion in Digital Marketing
+#  Predicting Ad Campaign Conversion in Digital Marketing
 🔍 Unlock the Power of Data to Optimize Your Marketing Campaigns!
 
-## 📌 Overview
+##  Overview
 This project focuses on predicting ad campaign conversion rates using advanced machine learning techniques. By analyzing digital marketing data, we identify key factors that drive successful conversions and help marketers make data-driven decisions.
 
 ## Objective
@@ -9,13 +9,13 @@ The goal of this project is to develop a machine learning model that predicts cu
 
 ![Dashboard Preview](dash1.PNG)
 
-## ✨ Features  
-✅ **📊 Interactive Dashboard** – View insights & predictions in a sleek UI  
-✅ **📁 CSV Upload & Manual Input** – Predict conversion from different data sources  
-✅ **📉 Model Benchmarking** – Compare multiple ML models for best performance  
-✅ **📈 Feature Importance Analysis** – Discover what impacts conversions the most  
-✅ **🖥️ Flask Web App** – Fully functional backend for real-time predictions  
-✅ **📑 Automated Reports** – Downloadable PDF reports with key insights  
+## Features  
+ **Interactive Dashboard** – View insights & predictions in a sleek UI  
+ **CSV Upload & Manual Input** – Predict conversion from different data sources  
+ **Model Benchmarking** – Compare multiple ML models for best performance  
+ **Feature Importance Analysis** – Discover what impacts conversions the most  
+ **Flask Web App** – Fully functional backend for real-time predictions  
+ **Automated Reports** – Downloadable PDF reports with key insights  
 
 
 ## Dataset Description
@@ -58,13 +58,13 @@ The dataset consists of customer-related attributes collected from marketing cam
 ## 🛠️ Model Performance & Results  
 We tested multiple models to determine the best performing one!  
 
-### 📌 Model Benchmarking Table  
+### Model Benchmarking Table  
 ![Model Benchmarking](model_benchmarking.PNG)
 
-### 📌 Confusion Matrix  
+### Confusion Matrix  
 ![Confusion Matrix](matrix_of_confusion.png)
 
-### 📌 ROC Curve & Precision-Recall Curve  
+### ROC Curve & Precision-Recall Curve  
 <img src="ROC_curve.png" width="45%"> <img src="precision_recall_curve.png" width="45%">
 
 ---
@@ -88,11 +88,11 @@ The best-performing model was the **Stacking Classifier**, achieving:
 - **Recall (Weighted)**: 94.17%
 - **F1 Score (Weighted)**: 94.10%
 
-## 📜 Report Paper
+## Report Paper
 📄 Final Research Paper: Includes detailed analysis, methodology, and findings.
 📑 Business Report: A concise summary of key takeaways for stakeholders.
 
-## 📢 Contributing
+## Contributing
 Have ideas to improve this project? Feel free to fork the repo, open issues, and submit pull requests!
 
 
