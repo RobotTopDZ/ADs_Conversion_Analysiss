@@ -1,5 +1,5 @@
 #  Predicting Ad Campaign Conversion in Digital Marketing
-🔍 Unlock the Power of Data to Optimize Your Marketing Campaigns!
+ Unlock the Power of Data to Optimize Your Marketing Campaigns!
 
 ##  Overview
 This project focuses on predicting ad campaign conversion rates using advanced machine learning techniques. By analyzing digital marketing data, we identify key factors that drive successful conversions and help marketers make data-driven decisions.
@@ -55,7 +55,7 @@ The dataset consists of customer-related attributes collected from marketing cam
 
 ---
 
-## 🛠️ Model Performance & Results  
+## Model Performance & Results  
 We tested multiple models to determine the best performing one!  
 
 ### Model Benchmarking Table  
@@ -89,8 +89,8 @@ The best-performing model was the **Stacking Classifier**, achieving:
 - **F1 Score (Weighted)**: 94.10%
 
 ## Report Paper
-📄 Final Research Paper: Includes detailed analysis, methodology, and findings.
-📑 Business Report: A concise summary of key takeaways for stakeholders.
+ Final Research Paper: Includes detailed analysis, methodology, and findings.
+ Business Report: A concise summary of key takeaways for stakeholders.
 
 ## Contributing
 Have ideas to improve this project? Feel free to fork the repo, open issues, and submit pull requests!
